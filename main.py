@@ -10,6 +10,7 @@ def main():
     messages = cfg['messages']
     access_token = cfg['token']
     delay = cfg['delay']
+    mode = cfg['random']
 
     vk_session = VkApi(token=access_token)
     api = vk_session.get_api()
@@ -28,7 +29,7 @@ def main():
     print('Бот ждёт постов...')
 
     try:
-        wait_for_posts(api, row, messages, delay)
+        wait_for_posts(api, row, messages, delay, mode)
     except KeyboardInterrupt:
         exit(0)
 

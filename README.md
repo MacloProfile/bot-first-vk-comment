@@ -23,7 +23,7 @@ VK Bot is a Python script designed to automate commenting on the latest posts in
 - **messages**: List of messages to randomly choose from when leaving comments.
 - **token**: Kate Mobile token obtained from [VK Host](https://vkhost.github.io/).
 - **delay**: Delay in seconds between checking for new posts.
-
+- **mode**: 1 - leave a random comment, 2 - leave all comments at once
 ## Disclaimer
 
 This script is intended for educational purposes only. Use it responsibly and adhere to VK's terms of service.
