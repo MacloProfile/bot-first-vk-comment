@@ -7,8 +7,7 @@ VK Bot is a Python script designed to automate commenting on the latest posts in
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/vk-bot.git
-   cd vk-bot
+   git clone link
    
 2. **Install dependencies:**
 
